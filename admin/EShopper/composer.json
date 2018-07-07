@@ -1,0 +1,25 @@
+{
+    "name": "syscms/eshopper",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\EShopper\\Providers\\EShopperServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\EShopper\\": ""
+        }
+    }
+}

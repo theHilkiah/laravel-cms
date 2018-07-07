@@ -1,0 +1,25 @@
+{
+    "name": "syscms/account",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\Account\\Providers\\AccountServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Account\\": ""
+        }
+    }
+}

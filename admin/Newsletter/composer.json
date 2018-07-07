@@ -1,0 +1,25 @@
+{
+    "name": "syscms/newsletter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\Newsletter\\Providers\\NewsletterServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Newsletter\\": ""
+        }
+    }
+}

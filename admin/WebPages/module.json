@@ -1,0 +1,16 @@
+{
+    "name": "WebPages",
+    "alias": "webpages",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Admin\\WebPages\\Providers\\WebPagesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

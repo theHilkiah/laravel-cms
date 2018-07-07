@@ -1,0 +1,16 @@
+{
+    "name": "EShopper",
+    "alias": "eshopper",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Admin\\EShopper\\Providers\\EShopperServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

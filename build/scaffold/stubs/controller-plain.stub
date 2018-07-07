@@ -1,0 +1,9 @@
+<?php
+
+namespace $CLASS_NAMESPACE$;
+
+use App\Http\Controllers\$MODULE_NAMESPACE$Controller;
+
+class $CLASS$ extends $MODULE_NAMESPACE$Controller
+{
+}

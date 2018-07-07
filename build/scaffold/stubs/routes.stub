@@ -1,0 +1,9 @@
+<?php
+
+Route::group([
+        'middleware' => 'web',
+        'prefix' => strtolower('$MODULE_NAMESPACE$'),
+        'namespace' => '$MODULE_NAMESPACE$\$STUDLY_NAME$\Http\Controllers'
+    ], function() {
+    Route::get('$LOWER_NAME$', '$STUDLY_NAME$Controller@index');
+});
